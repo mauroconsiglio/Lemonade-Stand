@@ -13,6 +13,13 @@
 		3486C00E1A25058900B6F5DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3486C00D1A25058900B6F5DA /* Images.xcassets */; };
 		3486C0111A25058900B6F5DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3486C00F1A25058900B6F5DA /* LaunchScreen.xib */; };
 		3486C01D1A25058900B6F5DA /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3486C01C1A25058900B6F5DA /* Lemonade_StandTests.swift */; };
+		3486C02A1A25060100B6F5DA /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 3486C0261A25060100B6F5DA /* glass.png */; };
+		3486C02B1A25060100B6F5DA /* ice-cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 3486C0271A25060100B6F5DA /* ice-cube.png */; };
+		3486C02C1A25060100B6F5DA /* slice.png in Resources */ = {isa = PBXBuildFile; fileRef = 3486C0281A25060100B6F5DA /* slice.png */; };
+		3486C02D1A25060100B6F5DA /* piggy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3486C0291A25060100B6F5DA /* piggy.png */; };
+		3486C02F1A25066B00B6F5DA /* Finished Storyboard Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3486C02E1A25066B00B6F5DA /* Finished Storyboard Screenshot.png */; };
+		3486C0311A25190500B6F5DA /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3486C0301A25190500B6F5DA /* Inventory.swift */; };
+		3486C0331A25199300B6F5DA /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3486C0321A25199300B6F5DA /* Cost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		3486C0161A25058900B6F5DA /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3486C01B1A25058900B6F5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3486C01C1A25058900B6F5DA /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+		3486C0261A25060100B6F5DA /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		3486C0271A25060100B6F5DA /* ice-cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice-cube.png"; sourceTree = "<group>"; };
+		3486C0281A25060100B6F5DA /* slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice.png; sourceTree = "<group>"; };
+		3486C0291A25060100B6F5DA /* piggy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piggy.png; sourceTree = "<group>"; };
+		3486C02E1A25066B00B6F5DA /* Finished Storyboard Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Finished Storyboard Screenshot.png"; sourceTree = "<group>"; };
+		3486C0301A25190500B6F5DA /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		3486C0321A25199300B6F5DA /* Cost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,8 @@
 			children = (
 				3486C0061A25058900B6F5DA /* AppDelegate.swift */,
 				3486C0081A25058900B6F5DA /* ViewController.swift */,
+				3486C0301A25190500B6F5DA /* Inventory.swift */,
+				3486C0321A25199300B6F5DA /* Cost.swift */,
 				3486C00A1A25058900B6F5DA /* Main.storyboard */,
 				3486C00D1A25058900B6F5DA /* Images.xcassets */,
 				3486C00F1A25058900B6F5DA /* LaunchScreen.xib */,
@@ -90,6 +106,11 @@
 		3486C0041A25058900B6F5DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3486C0261A25060100B6F5DA /* glass.png */,
+				3486C0271A25060100B6F5DA /* ice-cube.png */,
+				3486C0281A25060100B6F5DA /* slice.png */,
+				3486C0291A25060100B6F5DA /* piggy.png */,
+				3486C02E1A25066B00B6F5DA /* Finished Storyboard Screenshot.png */,
 				3486C0051A25058900B6F5DA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3486C00C1A25058900B6F5DA /* Main.storyboard in Resources */,
+				3486C02D1A25060100B6F5DA /* piggy.png in Resources */,
 				3486C0111A25058900B6F5DA /* LaunchScreen.xib in Resources */,
+				3486C02B1A25060100B6F5DA /* ice-cube.png in Resources */,
+				3486C02A1A25060100B6F5DA /* glass.png in Resources */,
+				3486C02C1A25060100B6F5DA /* slice.png in Resources */,
+				3486C02F1A25066B00B6F5DA /* Finished Storyboard Screenshot.png in Resources */,
 				3486C00E1A25058900B6F5DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3486C0311A25190500B6F5DA /* Inventory.swift in Sources */,
 				3486C0091A25058900B6F5DA /* ViewController.swift in Sources */,
+				3486C0331A25199300B6F5DA /* Cost.swift in Sources */,
 				3486C0071A25058900B6F5DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
